@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  NewsBoardDemo-05
+//
+//  Created by Invoter丶C on 16/4/19.
+//  Copyright © 2016年 IT. All rights reserved.
+//
+
+/*
+ 1.创建出来
+ 2.配置一下 系统 bulid settings 搜Prefix Header  （header） 双击 添加路径 
+ 
+ */
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Header.h"
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "NSString+Extension.h"
+#import "GFSStringAndNumber.h"
+
+#endif /* PrefixHeader_pch */
+
+
+
+
+
+
+
